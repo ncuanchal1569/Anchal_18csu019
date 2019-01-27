@@ -1,0 +1,14 @@
+class Procedural2
+public static void main(String[]args)
+{
+	Reportcard reportcard;
+	addMark(reportcard,1);
+	addGrade(reportcard,1);
+	writeReport();
+	result(reportcard,2,false);
+	addsgpa(reportcard,1);
+	addcgpa(reportcard,1);
+	result(reportcard,2,true);
+	stopReport();
+	System.out.println("Report Card is ready.");
+}
